@@ -1,0 +1,80 @@
+div#alert_1_2_2 {
+    display: none !important;
+}
+
+label.trading-view-link {
+	display: none;
+}
+
+body {
+	color: #8899a6;
+}
+
+header#header {
+    border-bottom: 0;
+}
+
+footer#fooeter {
+	border-top: 0;
+}
+
+header#header, div#contents, footer#footer, .chart-page {
+	background-color: #141d26 !important;
+}
+
+div.transaction-box-wrapper, div.list-group-item {
+    border: 1px solid #000;
+    line-height: 16px;
+    padding: 10px 10px;
+    background-color: #1b2836;
+}
+
+div.list-group-item {
+	color: #fff;
+}
+
+div.commission-box-wrapper {
+    border: 0;
+    background-color: #1b2836;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th, #footer address {
+    border-top: 1px solid #3d5466;
+}
+
+.nav-tabs>li>a {
+	background-color: #141d26;
+}
+
+.nav-tabs>li.active>a {
+    color: #8899a6;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background-color: #1b2836;
+    border: 0;
+}
+
+a, a:hover, a:focus, a:active {
+    color: #3399cc;
+}
+
+textarea, input.form-control {
+    color: #8899a6;
+    background-color: #141d26 !important;
+    border: 1px solid #000;
+    border-radius: 8px;
+    line-height: 20px;
+}
+
+tr.ask_row, tr.bid_row {
+	color: #fff;
+}
+
+button.user-ng-button {
+    margin-left: 10px;
+}
+
+button.user-ng-button, button.color_set_btn {
+    color: chocolate
+}
