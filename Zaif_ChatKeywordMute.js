@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Zaifチャット キーワードミュート
 // @namespace    https://slash.nephy.jp/
-// @version      0.1
+// @version      0.2
 // @description  Zaifのチャットで特定のキーワードを含む投稿をミュートします
 // @author       Slash Nephy
 // @match        https://zaif.jp/*
@@ -21,12 +21,13 @@
     const observer = new MutationObserver((mutations) => {
         mutations.forEach((mutation) => {
             mutation.addedNodes.forEach((node) => {
-                const text = $(node)[0].children[0].children[1].children[1].children[0].innerText;
-                muteWords.forEach((word) => {
-                    if (~text.indexOf(word)) {
+                const text = $(node)[0].children[0].children[1].children[2].children[0].innerText;
+                for (const word of muteWords) {
+                    if (text.indexOf(word) !== -1) {
                         chatArea.removeChild(node);
+                        break;
                     }
-                });
+                }
             });
         });
     });

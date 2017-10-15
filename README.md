@@ -25,8 +25,9 @@ MITライセンスで公開しています. ご自由にどうぞ.
 
 ---
 
-### Zaif_ChatKeywordMute.js / v0.1 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/Zaif_ChatKeywordMute.js)
+### Zaif_ChatKeywordMute.js / v0.2 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/Zaif_ChatKeywordMute.js)
 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち `muteWords` の配列に設定したワードを含む投稿をミュートします.
 
 #### 更新履歴
+- v0.2 - 正常に投稿を取り除けない問題を修正
 - v0.1 - 初版公開
