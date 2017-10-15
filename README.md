@@ -10,8 +10,23 @@ MITライセンスで公開しています. ご自由にどうぞ.
 おまけ要素として, 不要だと思われる部分を削除してあります.  
 現行verは一部不完全な部分があります. 今後のアップデートで修正します.
 
+#### 更新履歴
+- v0.1 - 初版公開
+
 ---
 
-### bitFlyer_PageTitleBid.js / v0.1 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/bitFlyer_PageTitleBid.js)
+### bitFlyer_PageTitleBid.js / v0.2 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/bitFlyer_PageTitleBid.js)
 <img src="https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/img/bitFlyer_PageTitleBid.png"><br>
 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち `https://bitflyer.jp/ex/Altcoin/MonaPrice`を開いておくとページタイトルに売値が表示されるようになります.
+
+#### 更新履歴
+- v0.2 - 要素の存在を確認するように修正
+- v0.1 - 初版公開
+
+---
+
+### Zaif_ChatKeywordMute.js / v0.1 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/Zaif_ChatKeywordMute.js)
+[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち `muteWords` の配列に設定したワードを含む投稿をミュートします.
+
+#### 更新履歴
+- v0.1 - 初版公開
