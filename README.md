@@ -3,6 +3,10 @@
 自分用に作ってあるのでChrome以外での動作は確認していません. また, 私はこれらのユーザスタイルシート/スクリプトを使用して発生した損害の責任を負いません.  
 MITライセンスで公開しています. ご自由にどうぞ.
 
+もし, 気に入ってくれたら投げ銭して下さると嬉しいです.  
+Monacoin: `MPBEH2iqHihDicmf59MWdp8C4EkJcdSAvp`  
+Bitcoin: `1GeZ15sZykgGTz9snmQudBsNJ4idruTVNU`
+
 ## 公開物一覧
 ### Zaif_DarkTheme.css / v0.2 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/Zaif_DarkTheme.css)
 <img src="https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/img/Zaif_DarkTheme.png"><br>
