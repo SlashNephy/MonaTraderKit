@@ -14,15 +14,19 @@ footer#fooeter {
 	border-top: 0;
 }
 
-td.widget span {
+td.header_widget_td span {
     text-shadow: 1px 1px 1px #000000 !important;
+}
+
+td.Zaif_tokentd {
+	border-left: 0 !important;
 }
 
 a.price {
 	text-decoration: none;
 }
 
-header#header, div#contents, footer#footer, .chart-page, div#widget-ex, td.widget {
+header#header, div#contents, footer#footer, .chart-page, div#header_widget, td.header_widget_td {
 	background-color: #141d26 !important;
 }
 
