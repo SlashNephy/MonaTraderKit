@@ -21,11 +21,13 @@ Bitcoin: `1GeZ15sZykgGTz9snmQudBsNJ4idruTVNU`
 
 ---
 
-### bitFlyer_PageTitle.js / v0.4 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/bitFlyer_PageTitle.js)
+### bitFlyer_PageTitle.js / v0.5 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/bitFlyer_PageTitle.js)
 <img src="https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/img/bitFlyer_PageTitle.png"><br>
-[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち `https://bitflyer.jp/ja-jp/ex/MonaPrice`を開いておくとページタイトルに買値/売値が表示されるようになります.
+[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち `https://bitflyer.jp/ja-jp/ex/MonaPrice`を開いておくとページタイトルに買値/売値が表示されるようになります.  
+Zaifを表示しつつ, bitFlyerの価格を確認したい方に便利です.
 
 #### 更新履歴
+- v0.5 - 値が1000を超えた場合の問題を修正 (MONA 1000突破おめでとう！)
 - v0.4 - 売値/買値が更新されていないときにリロードするように変更
 - v0.3 - 買値も表示するように変更
 - v0.2 - 要素の存在を確認するように修正
