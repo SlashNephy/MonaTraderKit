@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bitFlyer ページタイトルに買値/売値を表示
 // @namespace    https://slash.nephy.jp
-// @version      0.3
+// @version      0.4
 // @description  bitFlyerのモナコインの買値/売値をZaifのようにページタイトルに反映します
 // @author       Slash Nephy
 // @match        https://bitflyer.jp/ja-jp/ex/MonaPrice
@@ -21,6 +21,9 @@
     const observer = new MutationObserver((mutations) => {
         const askPrice = Number.parseFloat(ask.innerText).toFixed(1);
         const bidPrice = Number.parseFloat(bid.innerText).toFixed(1);
+        if (isNaN(askPrice) || isNaN(bidPrice)) {
+            window.location.reload();
+        }
         document.title = `${askPrice} / ${bidPrice} | ${originalTitle}`;
     });
 
