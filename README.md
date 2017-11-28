@@ -42,10 +42,11 @@ Bitcoin: `1GeZ15sZykgGTz9snmQudBsNJ4idruTVNU`
 
 ---
 
-### Zaif_AutoReconnect.js / v0.1 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/Zaif_AutoReconnect.js)
+### Zaif_AutoReconnect.js / v0.2 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/Zaif_AutoReconnect.js)
 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち WebSocketsから切断された際に再接続されるようになります.
 
 #### 更新履歴
+- v0.2 - 監視対象のテキストを修正
 - v0.1 - 初版公開
 
 ---
