@@ -20,11 +20,12 @@ Bitcoin: `1GeZ15sZykgGTz9snmQudBsNJ4idruTVNU`
 
 ---
 
-### bitFlyer_PageTitleBid.js / v0.2 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/bitFlyer_PageTitleBid.js)
-<img src="https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/img/bitFlyer_PageTitleBid.png"><br>
-[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち `https://bitflyer.jp/ex/Altcoin/MonaPrice`を開いておくとページタイトルに売値が表示されるようになります.
+### bitFlyer_PageTitle.js / v0.2 - [[ダウンロード]](https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/bitFlyer_PageTitle.js)
+<img src="https://raw.githubusercontent.com/SlashNephy/MonaTraderKit/master/img/bitFlyer_PageTitle.png"><br>
+[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)等でスクリプトを追加したのち `https://bitflyer.jp/ja-jp/ex/MonaPrice`を開いておくとページタイトルに買値/売値が表示されるようになります.
 
 #### 更新履歴
+- v0.3 - 買値も表示するように変更
 - v0.2 - 要素の存在を確認するように修正
 - v0.1 - 初版公開
 
