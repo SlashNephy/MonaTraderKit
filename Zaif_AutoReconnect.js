@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Zaif自動再接続
 // @namespace    https://slash.nephy.jp/
-// @version      0.2
+// @version      0.3
 // @description  ZaifでWebSocketsから切断されたら自動で再接続を試みます
 // @author       Slash Nephy
 // @match        https://zaif.jp/trade*
@@ -10,6 +10,8 @@
 
 (function() {
     'use strict';
+
+    document.removeEventListener(visibilityChange, handleVisibilityChange);
 
     const state = document.getElementById("message");
     if (state === null) {
